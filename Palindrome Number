@@ -1,0 +1,8 @@
+class Solution(object):
+    def isPalindrome(self, x):
+        # Convert the integer to a string
+        Palindrome = str(x)
+        # Reverse the string using slicing
+        reversed = Panlindrome[::-1]
+        # Compare the original and reversed strings
+        return original == reversed
